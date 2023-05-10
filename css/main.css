@@ -8,6 +8,10 @@
     --max-width: 1100px;
 }
 
+header{
+    margin-bottom:80px ;
+}
+
 body {
     font-family: 'Shantell Sans', cursive;
 }
@@ -261,7 +265,7 @@ img {
 
 .page-container {
     display: grid;
-    grid-template-columns: 5fr 2fr;
+    grid-template-columns: 3fr  2fr;
     margin-bottom: 40px;
 }
 
@@ -298,4 +302,33 @@ img {
   width: 300px;
   height: 500px;
 
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    margin-bottom: 80px;
+}
+
+.icon1:hover:hover{
+    color: #2159e8;
+    transition: 0.6s;
+}
+.icon2:hover:hover{
+    color: #0ca0d6;
+    transition: 0.6s;
+}
+.icon3:hover:hover{
+    color: #e807b4;
+    transition: 0.6s;
+}
+
+.col{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    text-align: center;
+}
+
+.increase{
+    padding: 50px;
 }
