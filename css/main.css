@@ -204,8 +204,8 @@ img {
 
 
 /* footer */
-#mainfooter{
-height: 400px !important  ;
+#mainfooter {
+    height: 400px !important;
 }
 
 #main-footer .footer-container {
@@ -332,4 +332,8 @@ height: 400px !important  ;
 
 .increase {
     padding: 50px;
+}
+
+.increase img {
+    border-radius: 50%;
 }
